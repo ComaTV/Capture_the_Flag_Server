@@ -1,0 +1,50 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Captur The Flag",
+        "description": "shit",
+        "uuid": "41517602-0639-41a3-9ee1-baace6efe242",
+        "version": [
+            1,
+            0,
+            0
+        ],
+        "min_engine_version": "1.21.0"
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "918ed491-622e-47ab-bc12-b397abdb79f0",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "cc97bee5-1a57-46d8-ae5b-8c4ee2905140",
+            "version": [
+                1,
+                0,
+                0
+            ],
+            "entry": "scripts/main.js",
+            "dependencies": [
+                {
+                    "module_name": "@minecraft/server",
+                    "version": "2.0.0-beta"
+                },
+                {
+                    "module_name": "@minecraft/server-ui",
+                    "version": "2.0.0-beta"
+                },
+                {
+                    "module_name": "@minecraft/server-net",
+                    "version": "1.0.0-beta"
+                }
+            ]
+        }
+    ]
+}
